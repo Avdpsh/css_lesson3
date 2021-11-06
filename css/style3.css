@@ -1,7 +1,7 @@
 body {
   background-color: #cccccc;
   font: 11px Verdana;
-  margin:0;
+  margin: 8px 0;
 }
 #container {
   margin-left: auto;
@@ -18,39 +18,38 @@ p:first-letter {
   font-family: Times New Roman;
 }
 #content {
-  width: 500px;
-  height: 240px;
+  width: 551px;
+  height: 300px;
   float: left;
   background-color: #fff;
   padding: 0 10px;
 }
-#nav {
-  width: 200px;
-  height: 235px;
-  float: left;
-  background-color: #e7e7e7;
-  
-}
 #header {
-  width: 800px;
-  height: 55px;
+  height: 50px;
   background-color: #b0b0b0;
 }
 ul {
  margin: 0;
  padding: 0;
- list-style: none; 
+ width: 720px;
+ list-style: none;
+ text-transform: uppercase; 
+}
+li {
+  display: inline;
+  float: left;
 } 
 a:link {
+  color: blue;
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: #333;
   text-decoration: none;
 }
 a:hover {
     background-position: right bottom;
-    color: white;
+    color: #333;
     font-weight: bold;
 }
 a:aktive {
@@ -60,19 +59,18 @@ a:aktive {
 }
 h1 {
   margin: 0;
-  padding: 15px 30px;
+  padding: 14px 38px;
 }
 h3 {
   font-weight: bold;
 }
 a {
-  display: block;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  color: #000000;
+  padding: 0 10px;
+  line-height: 25px;
   text-decoration: none;
-  font-size: 12px;
-  background: url(images/rol.gif) no-repeat left bottom;
-  text-indent: 40px;
+  color: #fff;
+  float: left;
+  display: block;
+  background-image: url(images/nb.gif);
+  background-repeat: repeat-x;
 }
