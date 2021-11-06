@@ -1,0 +1,29 @@
+#container {
+  width: 720px;
+  text-align: justify;
+  background-color: #fff;
+  margin: auto;
+}
+body {
+  background-color: #cccccc;
+  font: 11px Verdana;
+}
+p:first-letter {
+  color: blue;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: Times New Roman;
+}
+#content {
+  width: 520px;
+  height: 300px;
+  float: left;
+  background-color: #fff;
+}
+#nav {
+  width: 200px;
+  height: 300px;
+  float: left;
+  background-color: #e7e7e7;
+  
+}
