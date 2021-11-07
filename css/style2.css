@@ -1,12 +1,11 @@
 body {
+  width: 720px;
   background-color: #cccccc;
   font: 11px Verdana;
-  margin:0;
+  margin:10px 383px;
 }
 #container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 720px;
+  width: 770px;
   text-align: justify;
   background-color: #fff;
   margin: auto;
@@ -18,7 +17,7 @@ p:first-letter {
   font-family: Times New Roman;
 }
 #content {
-  width: 500px;
+  width: 550px;
   height: 240px;
   float: left;
   background-color: #fff;
@@ -32,8 +31,8 @@ p:first-letter {
   
 }
 #header {
-  width: 800px;
-  height: 55px;
+  width: 770px;
+  height: 60px;
   background-color: #b0b0b0;
 }
 ul {
@@ -60,7 +59,7 @@ a:aktive {
 }
 h1 {
   margin: 0;
-  padding: 15px 30px;
+  padding: 25px 0 0 30px;
 }
 h3 {
   font-weight: bold;
