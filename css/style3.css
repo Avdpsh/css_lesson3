@@ -49,9 +49,8 @@ a:hover {
     background-position: left bottom;
     color: #333;
 }
-a:aktive {
+a:active {
   color: black;
-    font-weight: bold;
     text-decoration: underline;
 }
 h1 {
@@ -82,7 +81,7 @@ a {
 .foto2stick {
   position: relative;
   z-index: 10;
-  padding: o;
+  padding: 0;
   top: -103px;
   left: 270px;
 }

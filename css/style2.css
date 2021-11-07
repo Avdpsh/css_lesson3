@@ -52,7 +52,7 @@ a:hover {
     color: white;
     font-weight: bold;
 }
-a:aktive {
+a:active {
   color: black;
     font-weight: bold;
     text-decoration: underline;
