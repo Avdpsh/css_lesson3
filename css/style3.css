@@ -1,25 +1,20 @@
-body, #container, #content, #header, #nav {
-  width: 700px;
-}
 body {
   background-color: #cccccc;
   font: 11px Verdana;
   margin: 10px 419px 0 419px;
 }
 #container {
-  margin: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 675px;
   text-align: justify;
   background-color: #fff;
   margin: auto;
 }
-p:first-letter {
-  color: blue;
-  font-weight: bold;
-  font-size: 38px;
-  font-family: Times New Roman;
-}
 #content {
-  height: 700px;
+  width: 700px;
+  height: 600px;
   float: left;
   background-color: #fff;
   padding: 0 0;
@@ -29,20 +24,21 @@ p:first-letter {
   background-color: #b0b0b0;
 }
 #nav {
+  width: 700px;
   height: 25px;
 } 
 ul {
- margin: 0;
- padding: 0;
- list-style: none;
- text-transform: uppercase; 
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+  text-transform: uppercase; 
 }
 li {
   display: inline;
   float: left;
 } 
 a:link {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 a:visited {
@@ -50,9 +46,8 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-    background-position: right bottom;
+    background-position: left bottom;
     color: #333;
-    font-weight: bold;
 }
 a:aktive {
   color: black;
@@ -73,7 +68,7 @@ a {
   text-decoration: none;
   color: #fff;
   float: left;
-  display: block;
+  display: inline;
   background-image: url(images/nb.gif);
   background-repeat: repeat-x;
 }
@@ -84,4 +79,13 @@ a {
   top: 10px;
   left: 10px;
 }
-
+.foto2stick {
+  position: relative;
+  z-index: 10;
+  padding: o;
+  top: -103px;
+  left: 270px;
+}
+div ul li a#end {
+  padding-right: 16px;
+}
