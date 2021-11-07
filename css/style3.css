@@ -1,12 +1,13 @@
+body, #container, #content, #header, #nav {
+  width: 700px;
+}
 body {
   background-color: #cccccc;
   font: 11px Verdana;
-  margin: 8px 0;
+  margin: 10px 419px 0 419px;
 }
 #container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 720px;
+  margin: inherit;
   text-align: justify;
   background-color: #fff;
   margin: auto;
@@ -18,20 +19,21 @@ p:first-letter {
   font-family: Times New Roman;
 }
 #content {
-  width: 551px;
-  height: 300px;
+  height: 700px;
   float: left;
   background-color: #fff;
-  padding: 0 10px;
+  padding: 0 0;
 }
 #header {
   height: 50px;
   background-color: #b0b0b0;
 }
+#nav {
+  height: 25px;
+} 
 ul {
  margin: 0;
  padding: 0;
- width: 720px;
  list-style: none;
  text-transform: uppercase; 
 }
@@ -63,6 +65,7 @@ h1 {
 }
 h3 {
   font-weight: bold;
+  padding-left: 10px;
 }
 a {
   padding: 0 10px;
@@ -74,3 +77,11 @@ a {
   background-image: url(images/nb.gif);
   background-repeat: repeat-x;
 }
+.box {
+  width: 680px;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
