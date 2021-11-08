@@ -10,7 +10,6 @@ body {
   height: 675px;
   text-align: justify;
   background-color: #fff;
-  margin: auto;
 }
 #content {
   width: 700px;
@@ -24,17 +23,17 @@ body {
   background-color: #b0b0b0;
 }
 #nav {
-  width: 700px;
+  width: 710px;
   height: 25px;
+  display: inline-block;
 } 
 ul {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   list-style: none;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 li {
-  display: inline;
   float: left;
 } 
 a:link {
@@ -42,7 +41,8 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #333;
+  color: #fff;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover {
@@ -51,7 +51,8 @@ a:hover {
 }
 a:active {
   color: black;
-    text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 h1 {
   margin: 0;
@@ -86,5 +87,5 @@ a {
   left: 270px;
 }
 div ul li a#end {
-  padding-right: 16px;
+  padding-right: 17px;
 }
